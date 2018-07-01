@@ -1,4 +1,7 @@
-let animals = ["きりん先輩", "ぞう大先輩", "見たことないお方"]
-let first = animals[0]
-let second = animals[1]
-let third = animals[2]
+var animals: [String:Int] = [String:Int]()
+animals["きりんさん"] = 2
+animals["ぞうさん"] = 1937
+animals
+
+let immutableAnimals: [String:Int] = ["kirin":2, "zou": 1937]
+immutableAnimals
