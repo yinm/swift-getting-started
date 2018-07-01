@@ -1,3 +1,4 @@
-for _ in 0...9 {
-    print("i")
+let animals = ["giraffa", "elephant", "cat"]
+for (i, animal) in animals.enumerated() {
+    print("\(i): \(animal)")
 }
