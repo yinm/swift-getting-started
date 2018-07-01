@@ -1,6 +1,10 @@
 //: Playground - noun: a place where people can play
 
-import UIKit
+var num1 = 1
+var num2 = 2
 
-let greeting: String = "Hello let"
-greeting = "can't overwrite"
+let numString1 = String(num1)
+let numString2 = String(num2)
+
+let numText = "num1: " + numString1 + " num2: " + numString2
+let another = "num1: \(numString1) num2: \(numString2)"
