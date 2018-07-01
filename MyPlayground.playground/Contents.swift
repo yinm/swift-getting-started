@@ -1,8 +1,10 @@
 //: Playground - noun: a place where people can play
 
-let value1 = 4
-let value2 = 0.12345
-let result = Double(value1) + value2
+var animals: [String] = [String]()
+animals.append("きりんさん")
+animals.append("ぞうさん")
 
-let value3 = Int(result)
+let immutableAnimals: [String] = [String]()
+//immutableAnimals.append("これあかんやつ")
 
+let immutableAnimals2: [String] = ["一生きりんさん", "一生ぞうさん"]
