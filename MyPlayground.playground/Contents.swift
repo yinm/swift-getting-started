@@ -1,5 +1,5 @@
-func showAnimalNumbers(numsOfGiraffa nums: Int) -> String {
-    return "きりんさんの数" + String(nums)
+func showNumber(_ num: Int) -> Int {
+    return num
 }
 
-showAnimalNumbers(numsOfGiraffa: 10)
+showNumber(10)
