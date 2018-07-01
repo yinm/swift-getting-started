@@ -2,4 +2,5 @@
 
 import UIKit
 
-"Hello" + "Swift"
+print("Hello" + "swift")
+
