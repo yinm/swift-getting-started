@@ -1,3 +1,3 @@
-for i in 0..<9 {
-    print("i: \(i)")
+for _ in 0...9 {
+    print("i")
 }
