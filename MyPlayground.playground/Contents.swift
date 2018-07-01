@@ -1,10 +1,8 @@
 //: Playground - noun: a place where people can play
 
-var num1 = 1
-var num2 = 2
+let value1 = 4
+let value2 = 0.12345
+let result = Double(value1) + value2
 
-let numString1 = String(num1)
-let numString2 = String(num2)
+let value3 = Int(result)
 
-let numText = "num1: " + numString1 + " num2: " + numString2
-let another = "num1: \(numString1) num2: \(numString2)"
