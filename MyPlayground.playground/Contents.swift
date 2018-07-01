@@ -2,8 +2,5 @@
 
 import UIKit
 
-var greeting = "Hello" + "swift"
-print(greeting)
-
-var greeting_with_type: String = "Hello Swift"
-print(greeting_with_type)
+let greeting: String = "Hello let"
+greeting = "can't overwrite"
