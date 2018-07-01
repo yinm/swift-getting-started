@@ -1,4 +1,12 @@
-import UIKit
+class Giraffa {
+    var name: String = ""
+    
+    func walk() {
+        print("tokotoko...")
+    }
+}
 
-var radio = UISwitch()
-radio.setOn(false, animated: true)
+var kirin = Giraffa()
+kirin.name = "きりん先輩"
+kirin.name
+kirin.walk()
