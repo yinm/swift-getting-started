@@ -1,7 +1,5 @@
-func add(a: Int) -> Int {
-    var result: Int = 20
-    result = result + a
-    return result
+func showAnimalNumbers(numsOfGiraffa nums: Int) -> String {
+    return "きりんさんの数" + String(nums)
 }
 
-add(a: 10)
+showAnimalNumbers(numsOfGiraffa: 10)
