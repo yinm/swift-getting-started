@@ -1,7 +1,5 @@
 var animal: String?
-animal = "kirinsan"
-
-print(animal)
-if let result = animal {
-    print(result)
+animal = "giraffa"
+if let _  = animal {
+    print("optionalちゃうで")
 }
