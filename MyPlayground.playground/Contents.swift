@@ -1,5 +1,6 @@
 var animal: String?
 animal = "giraffa"
-if let _  = animal {
-    print("optionalちゃうで")
+
+if let animal = animal {
+    print(animal + " 同じ変数名を使おうね")
 }
