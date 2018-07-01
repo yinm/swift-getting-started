@@ -1,18 +1,10 @@
-enum Animals {
-    case Giraffa
-    case Elephant
-    case Cat
+func getAnimal(newAnimal: String?) {
+    guard let animal = newAnimal else {
+        return
+    }
+    
+    print("get animal")
 }
 
-let animal = Animals.Giraffa
-switch animal {
-case .Giraffa:
-    print("kirin")
-    fallthrough
-case .Elephant:
-    print("zou")
-case .Cat:
-    print("nyan")
-default:
-    print("あかん")
-}
+getAnimal(newAnimal: "Giraffa")
+getAnimal(newAnimal: )
