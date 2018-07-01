@@ -1,4 +1,3 @@
-let animals = ["Giraffa", "Elephant", "Cat"]
-for animal in animals {
-    print(animal)
+for i in 0..<9 {
+    print("i: \(i)")
 }
