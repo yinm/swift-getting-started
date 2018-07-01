@@ -1,12 +1,18 @@
 enum Animals {
     case Giraffa
     case Elephant
+    case Cat
 }
 
 let animal = Animals.Giraffa
 switch animal {
 case .Giraffa:
-    print("きりんさん")
+    print("kirin")
+    fallthrough
 case .Elephant:
-    print("ぞうさん")
+    print("zou")
+case .Cat:
+    print("nyan")
+default:
+    print("あかん")
 }
