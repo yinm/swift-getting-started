@@ -1,7 +1,7 @@
-var animals: [String:Int] = [String:Int]()
-animals["きりんさん"] = 2
-animals["ぞうさん"] = 1937
-animals
+var animal: String?
+animal = "kirinsan"
 
-let immutableAnimals: [String:Int] = ["kirin":2, "zou": 1937]
-immutableAnimals
+print(animal)
+if let result = animal {
+    print(result)
+}
