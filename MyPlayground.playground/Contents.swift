@@ -1,10 +1,7 @@
-struct Girafffa {
-    var name: String
-    
-    func walk() {
-        print("tokotoko...")
-    }
+enum Fruit {
+    case Grape
+    case Apple
 }
 
-var giraffa = Girafffa(name: "kirinsan")
-giraffa.walk()
+Fruit.Grape
+Fruit.Apple
