@@ -6,7 +6,15 @@ class Giraffa {
     }
 }
 
-var kirin = Giraffa()
-kirin.name = "きりん先輩"
-kirin.name
-kirin.walk()
+class SmallGiraffa: Giraffa {
+    override func walk() {
+        super.walk()
+        print("chocochoco...")
+    }
+}
+
+var normal = Giraffa()
+normal.walk()
+
+var small = SmallGiraffa()
+small.walk()
