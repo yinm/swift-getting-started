@@ -1,10 +1,9 @@
-func getAnimal(newAnimal: String?) {
-    guard let animal = newAnimal else {
-        return
+var values = [11, 4, 25, 16, 5]
+let result = values.filter { (x:Int) -> Bool in
+    if x < 10 {
+        return true
     }
-    
-    print("get animal")
+    return false
 }
 
-getAnimal(newAnimal: "Giraffa")
-getAnimal(newAnimal: )
+print(result)
