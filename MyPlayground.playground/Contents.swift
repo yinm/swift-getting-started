@@ -1,3 +1,10 @@
-for value in 0..<9 where value != 5 {
-    print("i: \(value)")
+let value = "みかん"
+
+switch value {
+case let x where x.hasPrefix("み"):
+    print("みかん")
+case "りんご":
+    print("りんご")
+default:
+    print("その他")
 }
