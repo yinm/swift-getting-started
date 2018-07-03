@@ -1,10 +1,9 @@
-let value = "みかん"
+enum Animal {
+    case Giraffa
+    case Elephant
+}
 
-switch value {
-case let x where x.hasPrefix("み"):
-    print("みかん")
-case "りんご":
-    print("りんご")
-default:
-    print("その他")
+let animals :[Animal] = [.Giraffa, .Elephant, .Giraffa, .Giraffa]
+for case .Giraffa in animals {
+    print("きりんさん..")
 }
