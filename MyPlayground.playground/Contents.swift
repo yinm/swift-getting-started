@@ -1,6 +1,3 @@
-var values = [11, 4, 25, 16, 5]
-values.sort { (value1: Int, value2: Int) -> Bool in
-    value1 < value2
+for value in 0..<9 where value != 5 {
+    print("i: \(value)")
 }
-
-print(values)
